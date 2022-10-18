@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+}
+span {
+  color: #0613da;
+}
+body {
+  background-color: #dadd98;
+  font-size: 12px;
+}
+body {
+  height: 100vh;
+  background-image: url(a.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Silkscreen', cursive;
+  font-size: 46px;
+  font-weight: 800;
+}
+
+.container {
+  background-color: rgba(255, 0, 255, 0.8);
+  border-radius: 5px;
+  /* width: 350px;
+  height: 350px; */
+  width: 30%;
+
+  text-align: center;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 9;
+  padding: 40px;
+}
+h2 {
+  padding: 10px;
+  font-size: 20px;
+}
+.result {
+  color: #ee82ee;
+  text-transform: uppercase;
+}
+button {
+  padding: 4px;
+  margin: 2px;
+  text-transform: uppercase;
+  background: #d8bfd8;
+  border-color: #dda0dd;
+}
+button:hover {
+  background: #800080;
+  color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 20px;
+    margin-top: 80px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  button {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .title {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+}
